@@ -1,11 +1,4 @@
 {
-    "misc_keywords": {
-        "feral_cat": ["fel", "cat", "kit"],
-        "feral_dog": ["can", "dog", "pup"],
-        "feral_dragon": ["dra", "wyv", "wyr"],
-        "feral_bunny": ["bun", "rab", "har"],
-        "smol": ["smol", "small", "loli"]
-    },
 
     "interaction_subquery" : {
         "negative": {
