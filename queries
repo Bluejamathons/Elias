@@ -1,5 +1,14 @@
 {
 
+    "pronouns": {
+        "first": [" i ", " me ", " we ", " us "],
+        "second": [" you "],
+        "third": [" he ", " she ", " they ", " him ", " her ", " them "],
+        "first_possessive": [" my ", " mine ", " im ", " i am "],
+        "second_possessive": [" your ", " yours ", " you are ", " youre "],
+        "third_possessive": [" his ", " her ", " hers ", " their ",  " theirs ", " he is ", " she is ", " they are ", " hes ", " shes ", " theyre "]
+    },
+
     "interaction_subquery" : {
         "negative": {
             "rude_vulgar": ["bitch", "cunt", "pussy", "retard", "dumbass", "asshole", "prick", "jackass", "bastard", "dickhead", "son of a bitch", "asswipe", "asshat"],
@@ -33,8 +42,6 @@
             "politics": ["communism", "communist", "fascist", "fascism", "democracy", "republic", "theocracy", "theocrat", "autocrat", "autocracy", "nobility", "monarch", "oligarch", "parliament", "anarchy", "anarchist", "democrat", "authoritarian", "federation", "federacy", "judicial", "legislat", "government", "president", "prime minister", "dictator", "aristocrat", "aristocracy"],
             "sexual": ["loli", "pedo", "rape"]
         },
-        "possessive_first_second": ["i am your", "im your"],
-        "possessive_second_first": ["youre mine", "youre my", "you are my", "you are my"],
         "negation": ["is not", "isnt", "are not", "arent", "aint"]
     },
 
@@ -52,6 +59,9 @@
         "salutations": {
             "goodnight": ["night", "sleep tight", "buenas noches", "oyasumi", "nini", "gnight", "sleep well", "rest well", "sweet dreams", "until the morning", "see you in the morning", "see you in dreamland", "dream of", "hit the hay", "hit the hey", "snooze cruise"],
             "farewell": ["farewell", "bye", "see you", "catch you", "cheerio", "ciao", "adios", "bon voyage", "adieu", "so long", "tata", "ta ta", "hasta la vista", "have a good", "have a nice", "have a pleasant", "have a wonderful", "have a great", "have an amazing", "godspeed", "toodle", "sayonara", "bai", "later", "vale", "smell you later", "until next time", "until our", "until we"]
+        },
+        "affection": {
+            "love": ["love", "cherish", "treasure", "mean the world", "complete", "favorite"]
         },
         "expression":{
             "thanks": ["thank", "appreciate", "danke", "merci", "much obliged", "gracias", "grateful for"],
