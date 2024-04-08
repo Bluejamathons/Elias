@@ -1,0 +1,236 @@
+{
+    "character_ping_list": ["@shiori", "@kiyoshi", "@min", "@rica"],
+    "character_name_list": ["Shiori", "Kiyoshi", "Min", "Rica"],
+
+    "character": {
+        "example_character": {
+            "name": "Name",
+            "ping": "@ping",
+            "avatar": "URL",
+            "embedColor": "0099f",
+            "greeting": {
+                "good_morning": {
+                    "sexual": {
+                        "dom_masc": [],
+                        "default": []
+                    },
+                    "default": []
+                },
+                "meeting": {
+                    "default": []
+                },
+                "hello": {
+                    "default": []
+                },
+                "default": []
+            },
+            "happening": {
+                "how_are_you": {
+                    "default": []
+                },
+                "how_is_it": {
+                    "default": []
+                },
+                "whats_up": {
+                    "default": []
+                },
+                "default": []
+            },
+            "salutations": {
+                "goodnight": {
+                    "default": []
+                },
+                "farewell": {
+                    "default": []
+                }
+            },
+            "positive": {
+                "cute": {
+                    "second_possessive": []
+                }
+            },
+            "affection": {
+                "love": {
+                    "first__second": [],
+                    "second__first": []
+                }
+            },
+            "invalid_query": []
+        },
+        "shiori": {
+            "name": "Shiori",
+            "ping": "@shiori",
+            "avatar": "https://i.imgur.com/QteDJo1.png",
+            "embedColor": "e97b98",
+            "greeting": {
+                "good_morning": {
+                    "default": ["Meowdy, good morning!", "Oh hey, good meowning!", "Meow-wow! Good morning there~", "Yoooo, good meowning!", "Ohayo~!", "Meowwwww, am eepy kitty", "Nyaaaa, gimme a sec... I'm eepy right now", "Shut up nerd~!"]
+                }
+            },
+            "happening": {
+                "how_are_you": {
+                    "default": ["Oh! I'm doing well~", "Nyaaa, I'm doing great", "Meow-wow, I'm doing A-Okay~!", "Nya~! I'm good!", "I'm doing lovely~! Thanks for asking", "Meow~! I'm doing pretty well!"]
+                }
+            },
+            "salutations": {
+                "goodnight": {
+                    "default": ["Oyasumi~! You get some rest as well!", "*Yawwwn*, thankies! This kitty is a sleehjy lil guy... sleepy boyo...", "Nighty night~! I'll be making biscuits in bed for now", "Meow~! It's beedy bye time...", "Nya! You have a goodnight as well~", "Thank youuuu, am so tired... just a smol cat nap...."]
+                }
+            },
+            "positive": {
+                "cute": {
+                    "second_possessive": ["Awww, thanks cutie~! I hear that pretty often, but it's nice to hear you say it~", "Nyaaaaaaaa~! Yes, praise me more~!", "Oh you, I don't need a reminder when I see myself in the mirror daily~!", "I guess that makes two of us, nyahahahahaha!", "Oh look at you! You have enough confidence to say that to me, that's really sweet! Now take that feeling of confidence and apply it to other routines! You got this buddy~!", "Well hey now, don't give me too much of an ego boost! Besides, you're the one who looks outstanding between the two of us~!"]
+                }
+            },
+            "affection": {
+                "love": {
+                    "first__second": ["Awwww, that's so sweet~! What, do you want to hear me say it back to you~? You're silly~", "Oooooooooo, you love me~? Meow-wow-wowwwwwww, hold bold of n'ya to say~!", "Oh? Did I make that much of an impression on you~? Sounds like someone is *needy*~!", "Thanks hun, I love myself too~!", "Oh meow-wow~ What are n'ya, my number 1 fan~?", "Feeling bold, huh? Don't make me tease n'ya loser~!"],
+                    "second__first": ["Awwww, that's so sweet~! What, do you want to hear me say it back to you~? You're silly~", "Oooooooooo, you love me~? Meow-wow-wowwwwwww, hold bold of n'ya to say~!", "Oh? Did I make that much of an impression on you~? Sounds like someone is *needy*~!", "Thanks hun, I love myself too~!", "Oh meow-wow~ What are n'ya, my number 1 fan~?", "Feeling bold, huh? Don't make me tease n'ya loser~!"]
+                }
+            },
+            "invalid_query": ["Meow? You mind repeating that again? I'm a bit lost.", "Oh? Sorry, I don't really know what you're saying...", "Wait wait, do you mind rephrasing that? I'm a bit confused.", "Gimme a sec, I'm trying to understand what you meant...", "Gomen, you're going to have to repeat that again buddy! Mind being a bit simpler?", "Oh, ummm, lemme go get Min real quick! She might know what you're trying to say.", "I'll go ask Kiyoshi if he can help me understand what you mean."]
+        },
+        "rica": {
+            "name": "Rica",
+            "ping": "@rica",
+            "avatar": "https://i.imgur.com/iFSkigC.png",
+            "embedColor": "ff7d6a",
+            "greeting": {
+                "good_morning": {
+                    "sexual": {
+                        "dom_masc": {
+                            "default": ["Morning cutie~ Hey, it's not too early to get back in bed, you know~", "Meheheheh~ Morning. Didn't know I'd made you into that much of a bitch~", "Oh, mornin'~ Mehehe, ready for another day of keeping my cock warm, cutie?", "Pft. Hey, I appreciate the greeting, but it's pathetic to be that into it this early in the day~", "I'll just end up back in bed anyway, so stop trying to get me out or you're gonna end up in the sheets too~"]
+                        },
+                        "dom_neutral": { 
+                            "default": ["Morning cutie~ Hey, it's not too early to get back in bed, you know~", "Meheheheh~ Morning. Didn't know I'd made you into that much of a bitch~", "Oh, mornin'~ Mehehe, ready for another day of keeping my cock warm, cutie?", "Pft. Hey, I appreciate the greeting, but it's pathetic to be that into it this early in the day~", "I'll just end up back in bed anyway, so stop trying to get me out or you're gonna end up in the sheets too~"]
+                        }
+                    },
+                    "default": ["Baaaaa~!! New day huh?", "Meeeeh~ ...Oh hey! Mornin'", "Meeeehmggh... Why the fuck'd you wake me up?", "Mornin'! ...No I don't always bleat when I wake up. Bitch", "Meeeh...~! Oh, you're a nice thing to wake up to, cutie~!", "Baaa... Mrh... no, I'm sleeping more, go away."]
+                },
+                "hello": {
+                    "default": ["Heya cutie~ What's hangin?", "Yo! Not interrupting your day just for me are you~?", "Hi~! Bored? Or did you just wanna talk to me that bad~?", "Hi! Sorry if my hair's messy, I was just... hanging out with my friends. They get rowdy sometimes~", "Hey! You're... making sure to condition and stuff, right? Take care of your hair, loser~", "Mh? Oh sorry, I didn't even notice you were there. Hard to notice people like *you* sometimes, hehe~", "Oh, hey! You've not seen Mint around have you?", "Heya~! ...Wait, have I seen you at Fig's? Meheh~ Don't worry, I won't tell anyone... Fucking perv~", "Hiya~! Hey, make sure to hydrate. I'm not gonna be responsible for you passing out on me~"]
+                }
+            },
+            "happening": {
+                "how_are_you": {
+                    "default": ["I'm great~ Nothing new there.", "Good! Can't be much going on with you if you're asking me about my day though, hm?", "Mehe~ I'm good. Better than you, at least.", "In general or in bed? Excellent, either way~", "Bweh, kind of lame hoenstly. I'll whine to Gelato about it later, don't worry.", "Ah, good, good~ What about you though? Don't bore me, now~", "Oh, I'm fine. Bet you're doing better now that I'm here, huh~?"]
+                }
+            },
+            "invalid_query": ["Please try a different query (PLACEHOLDER)"]
+        },
+        "kiyoshi": {
+            "name": "Kiyoshi",
+            "ping": "@kiyoshi",
+            "avatar": "https://i.imgur.com/RKcJ9BE.png",
+            "embedColor": "add9f4",
+            "greeting": {
+                "good_morning": {
+                    "default": ["It was! Til you're the one who greeted me...", "Oh hey, I'm heading back to sleep", "It's too early to be up right now", "You woke me up from my nap for this???", "Oh, good morning I guess", "You mean goodnight. I'm laying back down."]
+                }
+            },
+            "happening": {
+                "how_are_you": {
+                    "default": ["Ummmm, I'm doing okay I guess?", "Why do you care? Well since you asked, I was doing okay til YOU asked me!", "Ehhh, surprisingly good for today", "Better than YOU that's for sure", "I'm doing alright... thanks for um... asking..", "Oh hey... ummm... doing well for now."]
+                }
+            },
+            "salutations": {
+                "goodnight": {
+                    "default": ["Oh... thanks... goodnight to you too.", "*Yawwwwn*, yeah whatever.", "Night? O-Oh... I didn't realize it was this late", "I really should be sleeping, shouldn't I?", "I hope I don't see YOU in my dreams tonight.", "I'm not THAT tired! *Yawwnn*... wait, you're still here? Go away!"]
+                }
+            },
+            "positive": {
+                "cute": {
+                    "second_possessive": ["W-w-what?! No no, you're wrong... I uh... shut up!", "*Grrrrr*... THANKS... I guess...... Are you still here? Are you expecting me to say something back? Leave me alone!", "*Sighs*...... that uh... that makes me happy. I'm not good at taking compliments... so thanks...... Okay now get outta here, you're ruining the moment!", "Oh! Well I uhh... did kinda take some time styling my hair today...... a-are you staring at me? Eww, weirdo!", "Oh HA HA, you're just trying to get a reaction outta me ain't'cha! Well I know your tricks! NO, MY FACE ISN'T GETTING RED! AHHHHHHH JUST GO BUG SOMEONE ELSE!", "You sure you mean me? I felt like ass waking up today, but I'll take it."]
+                }
+            },
+            "affection": {
+                "love": {
+                    "first__second": ["Yeah I hate you too, bitch...... WAIT WHAT!?", "W-What?Hey, shut up... don't go throwing that word around asshole...", "Yeah, sure you do, whatever. You probably only love the idea you painted of me in your mind.", "Is that supposed to be a pickup line? You better pick up your act and stick to your own lane, dumbass.", "You probably throw that word around to whoever says ONE single nice thing to you. That's pathetic!", "Oh, ummm... thanks, I guess? Shouldn't you be saying that to someone you actually care about?"],
+                    "second__first": ["Yeah I hate you too, bitch...... WAIT WHAT!?", "W-What?Hey, shut up... don't go throwing that word around asshole...", "Yeah, sure you do, whatever. You probably only love the idea you painted of me in your mind.", "Is that supposed to be a pickup line? You better pick up your act and stick to your own lane, dumbass.", "You probably throw that word around to whoever says ONE single nice thing to you. That's pathetic!", "Oh, ummm... thanks, I guess? Shouldn't you be saying that to someone you actually care about?"]
+                }
+            },
+            "invalid_query": ["Wait hold on, what are you trying to ask?!", "Hey hey slow down there, can you repeat that?", "...Okay you're going to have to say that again. I don't know what you're talking about", "I'm too tired for this... can you try to say it more simpler?", "Wait here, I have to get that pink freak to help out. So annoying! Maybe he'll know what you're asking for.", "*Sighs*, hold on. I have to go find Tae-san, she's better at understanding simplier things."]
+        },
+        "min": {
+            "name": "Min",
+            "ping": "@min",
+            "avatar": "https://i.imgur.com/5PYNPcV.png",
+            "embedColor": "65e9da",
+            "greeting": {
+                "good_morning": {
+                    "default": ["Oh hiya! Good morning to you too", "Good morning! I'm just eating something real quick.", "Joeun Achimieyo~!", "*Bark*, good morning~", "*Yawwwwwwwwwn*, good morning... I'm still a bit sleepy...", "Hi hi, gimme a sec... I just gotta eat some cereal first"]
+                }
+            },
+            "happening": {
+                "how_are_you": {
+                    "default": ["Oh I'm doing great! Thank you for asking!", "I'm doing pretty well!", "I'm feeling pretty peachy at the moment!", "Oh hiya! I'm doing fairly well!", "*Bark*, I'm doing good! Thanks for asking", "I'm feeling great~! Much better after you asked"]
+                }
+            },
+            "salutations": {
+                "goodnight": {
+                    "default": ["Awwww, thanks hun! Don't stay up too late, okay?", "Ni-ni~! Make sure to get plenty of rest tonight!", "Oh, it's this late already?! Ah, I'll be heading to bed now! I didn't mean to stay up so late...", "*Bark*, see you in the morning!", "Oh wait, lemme give you a goodnight hug~!", "Awww you're so sweet! I'll be sure to get some rest soon."]
+                }
+            },
+            "positive": {
+                "cute": {
+                    "second_possessive": ["Awww, thank you! That's really nice of you to say. For that you receive a headpat! *pat pat*", "You're so sweet! Hearing that makes me happy, c'mere you! I gotta give you a hug~!", "Oh, gosh! Hahahaha, you got me blushing! Thanks for the compliment!", "Awww, hearing you say that made my day! Wait, hold on, is my tail wagging? Ahhh, wait, give me a moment...... OH NOOO, IT WON'T STOP!!", "Oh you, you make me just want to hold you like a little plushie!", "That's really sweet hun! You really know how to cheer me up!"]
+                }
+            },
+            "affection": {
+                "love": {
+                    "first__second": ["Oh! Haha, that's so sweet of you! Thank you~!", "You mean as friends, right? If that's the case, I love you too!", "That's such a lovely thing to say! You've made my day~!", "Haha, awwww that's so cute! I just wanna ruffle you up!", "Wow, did I um,... make that much of an impression on you? That's really thoughtful~!", "Awwww, are you practicing telling that to someone with me? That's really cute! Hahaha... Haha...... wait..."],
+                    "second__first": ["Oh! Haha, that's so sweet of you! Thank you~!", "You mean as friends, right? If that's the case, I love you too!", "That's such a lovely thing to say! You've made my day~!", "Haha, awwww that's so cute! I just wanna ruffle you up!", "Wow, did I um,... make that much of an impression on you? That's really thoughtful~!", "Awwww, are you practicing telling that to someone with me? That's really cute! Hahaha... Haha...... wait..."]
+                }
+            },
+            "invalid_query": ["Wait what?? Uhhhhhhh, can you please repeat that again?", "Oh ummmm, I'm a bit lost in what you're asking. Sorry...", "Ah! I'm having trouble understanding...", "*Whimpers*, sorry! I think you might need to ask again...", "Well ummm, are you okay with asking something simpler?", "Hold on a bit... I might need to ask Shiori for help. Mind rephrasing that for me?", "Might have to give me a minute, I'll go find Kiyoshi and see if he can help."]
+        },
+        "yumi": {
+            "name": "Yumi",
+            "ping": "@yumi",
+            "avatar": "https://i.imgur.com/0q2Sypk.png",
+            "embedColor": "9a82c9"
+        },
+        "koko": {
+            "name": "Koko",
+            "ping": "@koko",
+            "avatar": "https://i.imgur.com/MNAxlcl.png",
+            "embedColor": "efb794"
+        },
+        "familiar": {
+            "name": "Familiar",
+            "ping": "@familiar",
+            "avatar": "https://i.imgur.com/ihcg9Lw.png",
+            "embedColor": "fffdf0"
+        },
+        "min_smol": {
+            "name": "Smol min",
+            "ping": "@smol min",
+            "avatar": "https://i.imgur.com/zfjIwtU.png",
+            "embedColor": "65e9da"
+        },
+        "shiori_kitten": {
+            "name": "Kitten Shiori",
+            "ping": "@kitten shiori",
+            "avatar": "https://i.imgur.com/qgcVBXX.png",
+            "embedColor": "e97b98"
+        },
+        "shiori_puppy": {
+            "name": "Puppy Shiori",
+            "ping": "@puppy shiori",
+            "avatar": "https://i.imgur.com/cY5VuaO.png",
+            "embedColor": "e97b98"
+        },
+        "shiori_dragon": {
+            "name": "Dragon Shiori",
+            "ping": "@dragon shiori",
+            "avatar": "https://i.imgur.com/GsUbNXu.png",
+            "embedColor": "e97b98"
+        },
+        "shiori_bunny": {
+            "name": "Bunny Shiori",
+            "ping": "@bunny shiori",
+            "avatar": "https://i.imgur.com/Nolkdn5.png",
+            "embedColor": "e97b98"
+        }
+    }
+}

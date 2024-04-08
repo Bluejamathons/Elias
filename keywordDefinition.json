@@ -1,0 +1,226 @@
+{
+    "misc_keywords": {
+        "feral_cat": ["fel", "cat", "kit"],
+        "feral_dog": ["can", "dog", "pup"],
+        "feral_dragon": ["dra", "wyv", "wyr"],
+        "feral_bunny": ["bun", "rab", "har"],
+        "smol": ["smol", "small", "loli"]
+    },
+
+    "pronouns": {
+        "first": [" i ", " me ", " we ", " us "],
+        "second": [" you ", " u "],
+        "third": [" he ", " she ", " they ", " him ", " her ", " them "],
+        "first_possessive": [" my ", " mine ", " im ", " i am "],
+        "second_possessive": [" your ", " ur ", " yours ", " urs ", " you are ", " youre "],
+        "third_possessive": [" his ", " hers ", " their ",  " theirs ", " he is ", " she is ", " they are ", " hes ", " shes ", " theyre "]
+    },
+
+    "negation": [" not ", " aint ", "arent", "cant", "cannot", "couldnt", "didnt", "doesnt", "dont", "hadnt", "hasnt", "havent", "isnt", "mightnt", "musnt", "mustnt", "shant", "shouldnt", "werent", "wont", "wouldnt"],
+
+    "interaction_subquery" : {
+        "negative": {
+            "rude_vulgar": {
+                "keywords": ["bitch", "cunt", "pussy", "retard", "dumbass", "asshole", "prick", "jackass", "bastard", "dickhead", "son of a bitch", "asswipe", "asshat"]
+            },
+            "rude_tame": {
+                "keywords": ["idiot", "jerk", "schmuck", "moron", "nitwit", "twit", "blockhead", "imbecile", "muttonhead", "dimwit", "bonehead", "airhead", "dingbat"]
+            },
+            "rude_endearing": {
+                "keywords": ["dork", "boob"]
+            },
+            "ugly": {
+                "opposite": {
+                    "parent": "positive",
+                    "child": "attractive"
+                },
+                "keywords": ["ugly", "hideous", "unsightly", "grotesque", "unseemly", "deformed", "disfigured", "monstrous"]
+            },
+            "disgusting": {
+                "opposite": {
+                    "parent": "positive",
+                    "child": "attractive"
+                },
+                "keywords": ["disgusting", "grisly", "horrid", "appalling", "foul", "frightful", "repelling", "repulsive", "revolting"]
+            }
+        },
+        "positive": {
+            "attractive": {
+                "opposite": {
+                    "parent": "negative",
+                    "child": "ugly"
+                },
+                "keywords": [" hot ", "sexy", "enticing", "glamorous", "lovely", "looker", "tantalizing", "stunning", "magnetic", "mesmerizing", "mesmeric", "enthralling", "beautiful", "alluring", "charming", "goodlooking", "gorgeous", "attractive", "exquisite", "magnificent", "ravishing", "fine", "majestic"]
+            },
+            "attractive_masc": {
+                "opposite": {
+                    "parent": "negative",
+                    "child": "ugly"
+                },
+                "keywords": ["handsome", "hunky"]
+            },
+            "cute": {
+                "opposite": {
+                    "parent": "negative",
+                    "child": "ugly"
+                },
+                "keywords": ["cute", "adorable", "coot", "pretty", "kawaii"]
+            },
+            "stylish": {
+                "keywords": ["stylish", "dapper", "suave", "welldressed", "well dressed"]
+            }
+        },
+        "neutral": {
+            "smart": {
+                "keywords": ["nerd"]
+            }
+        },
+        "sexual": {
+            "promiscuous": {
+                "keywords": ["whore", "slut", "tramp", " ho ", " hoe ", "hooker", "streetwalker", "escort", "harlot", "floozy", "bimbo", "hussy", "prostitute"]
+            },
+            "dom_masc": {
+                "keywords": ["daddy", " sir "]
+            },
+            "dom_fem": {
+                "keywords": ["mommy", "maam", "mistress"]
+            },
+            "dom_neutral": {
+                "keywords": ["master"]
+            },
+            "sub": {
+                "keywords": ["sleeve", "cock sock", "cocksock", "cock warmer", "cockwarmer", "dick warmer", "dickwarmer", "cumsock", "cum sock", "dicksock", "dick sock", "sock cucker", "sick ducker", "cock sucker", "dick sucker", "cock polisher", "dick polisher", "cum collector", "cocksucker", "dicksucker"]
+            },
+            "dynamic": {
+                "keywords": ["dom", "sub", "top", "bottom", "vers", "switch"]
+            },
+            "position": {
+                "keywords": ["missionary", "cowgirl", "reverse cowgirl", "sixty nine", "sixtynine", "69", "doggy", "amazon", "mating press", "full nelson"]
+            }
+        },
+        "conversation": {
+            "sports": {
+                "keywords": ["sport", "football", "soccer"]
+            },
+            "activities": {
+                "keywords": ["movies", "theater", "theatre"]
+            },
+            "animals": {
+                "keywords": ["cat", "dog"]
+            }
+        },
+        "controversial": {
+            "politics": {
+                "keywords": ["communism", "communist", "fascist", "fascism", "democracy", "republic", "theocracy", "theocrat", "autocrat", "autocracy", "nobility", "monarch", "oligarch", "parliament", "anarchy", "anarchist", "democrat", "authoritarian", "federation", "federacy", "judicial", "legislat", "government", "president", "prime minister", "dictator", "aristocrat", "aristocracy"]
+            },
+            "sexual": {
+                "keywords": ["loli", "pedo", "rape"]
+            }
+        }
+    },
+
+    "interaction_query": {
+        "greeting": {
+            "good_morning": {
+                "keywords": ["gm", "mornin", "gmorn", "g morn", "good morn"]
+            },
+            "meeting": {
+                "keywords": ["to meet you", "heard a lot about you"]
+            },
+            "hello": {
+                "keywords": ["hello", "hey", "good to see you", "gday", "good day", "howdy", "afternoon", "evenin", "day", " hii", " hi "]
+            }
+        },
+        "happening": {
+            "how_are_you": {
+                "keywords": ["how are you", "howre you", "how have you been", "howve you been", "how do you do", "and you", "& you", " n you"]
+            },
+            "how_is_it": {
+                "keywords": ["hows everything", "how is everything", "hows it", "how is it", "how are things", "howre things", "hows life", "how is life"]
+            },
+            "whats_up": {
+                "keywords": ["whats up", "what is up", "sup", "whats going on", "what is going on", "whats new", "what is new", "whats the story", "what is the story", "whats poppin", "whats crackin", "whats crackalackin", "what have you been", "whatve you been"]
+            }
+        },
+        "salutations": {
+            "goodnight": {
+                "keywords": ["night", "sleep tight", "buenas noches", "oyasumi", "nini", "gnight", "sleep well", "rest well", "sweet dreams", "until the morning", "see you in the morning", "see you in dreamland", "dream of", "hit the hay", "hit the hey", "snooze cruise"]
+            },
+            "farewell": {
+                "keywords": ["farewell", "bye", "see you", "catch you", "cheerio", "ciao", "adios", "bon voyage", "adieu", "so long", "tata", "ta ta", "hasta la vista", "have a good", "have a nice", "have a pleasant", "have a wonderful", "have a great", "have an amazing", "godspeed", "toodle", "sayonara", "bai", "later", "vale", "smell you later", "until next time", "until our", "until we"]
+            }
+        },
+        "affection": {
+            "love": {
+                "opposite": {
+                    "parent": "antiaffection",
+                    "child": "hate"
+                },
+                "keywords": ["love", "cherish", "treasure", "mean the world", "complete", "favorite"]
+            }
+        },
+        "expression":{
+            "thanks": {
+                "keywords": ["thank", "appreciate", "danke", "merci", "much obliged", "gracias", "grateful for"]
+            },
+            "youre_welcome": {
+                "keywords": ["youre welcome", "pleasure", "dont mention it", "no problem", "no worries", "you are welcome", "not at all", "of course", "forget it", "forget about it", "its nothing", "sure", "mhm", "yw"]
+            },
+            "condolences": {
+                "keywords": ["sorry to hear", "sorry that happened", "sympathies", "consolences", "pardon me"]
+            },
+            "sorry": {
+                "keywords": ["apologize", "apologies", "sorry", "my bad", "mb", "blame me", "my fault", "i messed up", "i screwed up"]
+            }
+        },
+        "conversation": {
+            "home": {
+                "keywords": ["are you from", "brought you here", "brought you to", "grow up"]
+            },
+            "age": {
+                "keywords": ["how old", "what year", "born", "date of birth", "birthday"]
+            },
+            "thoughts": {
+                "keywords": ["think", "believe", "feel"]
+            },
+            "favorite": {
+                "keywords": ["preferred", "number one", "prize", "treasure", "most", "beloved", "cherish", "esteem", "admire", "choice", "favor", "best"]
+            }
+        },
+        "animal": {
+            "cat": {
+                "keywords": ["meow", "mew", "prr", "purr", "miao", "nya"]
+            },
+            "dog": {
+                "keywords": ["woof", "boof", "bork", "bark", "howl", "awoo"]
+            },
+            "fox": {
+                "keywords": ["yip", "yap"]
+            },
+            "sheep": {
+                "keywords": ["baa", "bleat", "meh", "meeh", "meeeh", "meeeeh", "meeeeeh", "meeeeeeh", "meeeeeeeh"]
+            },
+            "bug": {
+                "keywords": ["bzz", "buzz"]
+            },
+            "bird": {
+                "keywords": ["quack", "cluck", "chirp", "caw", "hoot", "cheep"]
+            },
+            "farm": {
+                "keywords": ["moo", "oink", "cockadoodledo", "cock a doodle do", "neigh", "hiss", "ribbit", "squeak", "croak", "screech"]
+            },
+            "miscellaneous": {
+                "keywords": ["growl", "grr", "roar", "whimper"]
+            }
+        }
+    },
+
+    "ideogram": {
+        "emoji": {
+
+        },
+        "sticker": {
+
+        }
+    }
+}
